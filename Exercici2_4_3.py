@@ -33,8 +33,7 @@ class Llista:
         return self.num
 
 class Pila:
-    dades=[]
-    def __int__(self):
+    def __init__(self):
         self.dades=[]
     def apilar(self,element):
         self.dades.append(element)

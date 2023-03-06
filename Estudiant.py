@@ -1,9 +1,9 @@
 class Estudiant:
     school = "freeCodeCamp.org"
 
-    def __init__(self, name, course):
-        self.nom = name
-        self.curs = course
+    def __init__(self, nom, curs):
+        self.nom = nom
+        self.curs = curs
 
 
 Estudiant1 = Estudiant("Jane", "JavaScript")

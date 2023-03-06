@@ -1,8 +1,6 @@
 class Llista:
-    dades = []
-    actual = 0
-    num = 0
-    def __int__(self):
+
+    def __init__(self):
         self.dades = []
         self.actual = 0
         self.num = 0
