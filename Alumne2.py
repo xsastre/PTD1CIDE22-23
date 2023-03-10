@@ -8,7 +8,7 @@ class Alumne:
         self.nomcomplet=nc
     def contestarPreguntesProfesor(self,pregunta):
         if (pregunta=="fa bon dia?"):
-            return "Sí"
+            return "Fa un dia horrorós"
         elif (pregunta=="Com te noms?"):
             return self.nc
         else:
