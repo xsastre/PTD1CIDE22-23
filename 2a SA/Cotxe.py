@@ -1,10 +1,13 @@
+from accessorisCotxe import any
+
 class Cotxe:
+
     ## Definició d'atributs
-    tipusdeCanvi = 0 ## Definir com a tipus ("Manual","Automàtic")
-    marxaActual = 0 ## Definir marxes com tipus 
+    tipusdeCanvi = TipusdeCanvi.MANUAL ## Definir com a tipus ("Manual","Automàtic")
+    marxaActual = Marxa.PuntMort ## Definir marxes com tipus 
     revolucions = 0
     revolucionsMaximes = 10000
-    tipusCarburant = 0 ## Definir com a tipus ("Benzina","Dièsel","Híbrid","Elèctric")
+    tipusCarburant = Carburant.BENZINA ## Definir com a tipus ("Benzina","Dièsel","Híbrid","Elèctric")
     ## Definir mètode càlcul d'autonomia en kms en funcio del tipus de Carburant
     embraguePitjat = False
     motorGripat = False
